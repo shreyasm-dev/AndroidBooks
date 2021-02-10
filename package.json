@@ -1,0 +1,16 @@
+{
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "start": "tabris serve -a"
+  },
+  "dependencies": {
+    "tabris": "~3.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
